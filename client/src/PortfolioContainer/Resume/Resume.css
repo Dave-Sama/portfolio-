@@ -130,9 +130,9 @@
 }
 
 .resume-sub-heading {
-	font-size: 14px;
+	font-size: 15px;
 	font-family: 'Poppins Light';
-	font-weight: bold;
+
 	color: #111;
 	margin: 10px 0 0 0;
 	border-radius: 10px;
@@ -140,7 +140,7 @@
 }
 
 .resume-heading-description {
-	font-size: 10px;
+	font-size: 14px;
 	font-family: 'Poppins Light';
 	max-width: 70%;
 }

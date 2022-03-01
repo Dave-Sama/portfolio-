@@ -8,9 +8,9 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../utilities/ScrollService';
 import Animations from '../../utilities/Animations';
-import lady from '../../img/Testimonial/lady.png';
-import man from '../../img/Testimonial/man.png';
-import mike from '../../img/Testimonial/mike.png';
+import Yonathan from '../../img/Testimonial/Yonathan.png';
+import Ariel from '../../img/Testimonial/Ariel.png';
+import Sage from '../../img/Testimonial/Sage.png';
 
 export default function Testimonial({ id }) {
 	let fadeInScreenHandler = (screen) => {
@@ -62,8 +62,8 @@ export default function Testimonial({ id }) {
 									<div className='testi-comment'>
 										<p>
 											<i className='fa fa-quote-left' />
-											Iv'e worked with Dave before, he's talanted, fast and
-											honest.
+											I've worked with Dave before, he's talented developer that
+											will always give his best for the cause.
 											<i className='fa fa-quote-right' />
 										</p>
 										<ul className='stars list-unstyled'>
@@ -85,9 +85,9 @@ export default function Testimonial({ id }) {
 										</ul>
 									</div>
 									<div className='client-info'>
-										<img src={lady} alt='no internet connection' />
-										<h5>Daisy Dominic</h5>
-										<p>CEO Inansglobal</p>
+										<img src={Yonathan} alt='no internet connection' />
+										<h5>Yonathan Hen</h5>
+										<p>Fullstack Developer</p>
 									</div>
 								</div>
 							</div>
@@ -96,8 +96,8 @@ export default function Testimonial({ id }) {
 									<div className='testi-comment'>
 										<p>
 											<i className='fa fa-quote-left' />
-											Fell in love with his delivery, very fast and with high
-											quality.
+											I know him for a few years, He's the man you want to get
+											yourr job done.
 											<i className='fa fa-quote-right' />
 										</p>
 										<ul className='stars list-unstyled'>
@@ -119,9 +119,9 @@ export default function Testimonial({ id }) {
 										</ul>
 									</div>
 									<div className='client-info'>
-										<img src={man} alt='no internet connection' />
-										<h5>Joe Doe</h5>
-										<p>CEO at freshfuck.com</p>
+										<img src={Ariel} alt='no internet connection' />
+										<h5>Ariel Turchinsky</h5>
+										<p>Unity Developer</p>
 									</div>
 								</div>
 							</div>
@@ -130,7 +130,8 @@ export default function Testimonial({ id }) {
 									<div className='testi-comment'>
 										<p className='quote'>
 											<i className='fa fa-quote-left' />
-											It's obvious that he know what he's doing.
+											Worked with David for a few years, He's devoted, fast and
+											will never compromise on quality.
 											<i className='fa fa-quote-right' />
 										</p>
 										<ul className='stars list-unstyled'>
@@ -152,9 +153,9 @@ export default function Testimonial({ id }) {
 										</ul>
 									</div>
 									<div className='client-info'>
-										<img src={mike} alt='no internet connection' />
-										<h5>Mike Jones</h5>
-										<p>CEO at blacklivesmetter.com</p>
+										<img src={Sage} alt='no internet connection' />
+										<h5>Sage Baram</h5>
+										<p>Data Scientist</p>
 									</div>
 								</div>
 							</div>

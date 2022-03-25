@@ -13,21 +13,7 @@ export default function AboutMe({ id }) {
 	};
 	const fadeInSubscription =
 		ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-	const SCREEN_CONSTANTS = {
-		description:
-			'Full Stack web and mobile developer with background knowledge of MERN stack with react.js',
-		highlights: {
-			bullets: [
-				'Full Stack web and mobile development',
-				'Interactive Front End as per the design',
-				'React and React-Native',
-				'Redux for State Management',
-				'Building REST API',
-				'Managing databases',
-			],
-			heading: 'Here are a few Highlights:',
-		},
-	};
+
 	const renderHighlight = () => {
 		return SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
 			<div className='highlight' key={i}>

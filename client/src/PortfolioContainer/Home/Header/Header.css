@@ -100,52 +100,6 @@
 	}
 }
 
-/* .header-container {
-	display: flex;
-	justify-content: center;
-	height: 149px;
-	color: var(--white);
-}
-.header-parent {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	height: 100%;
-	width: 70%;
-	color: #fff;
-}
-.header-logo {
-	font-size: 40px;
-	font-family: 'Poppins ExtraBold';
-	color: #fff;
-}
-
-.second-title {
-	font-size: 60px;
-	font-family: 'Allan Bold';
-	color: var(--light-yellow);
-}
-.header-options {
-	display: flex;
-	align-items: center;
-}
-.header-option {
-	font-size: 16px;
-	cursor: pointer;
-	font-weight: 600;
-}
-.header-hamburger {
-	display: none;
-	color: var(--white);
-}
-.header-option-seperator {
-	margin: 0 50px 0 0;
-	color: var(--white);
-}
-.selected-header-option {
-	color: var(--light-yellow);
-}
-
 /*IPAD PRO RESPONSIVENESS*/
 @media only screen and (max-width: 1110px) {
 	header-parent {
